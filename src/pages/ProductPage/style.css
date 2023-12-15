@@ -1,0 +1,36 @@
+
+
+.product_table tr th {
+  background-color: #356646;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: -0.16px;
+  text-transform: uppercase;
+  padding: 23px;
+}
+.product_table tr th:first-child {
+  border-radius: 8px 0 0;
+  padding-left: 45px;
+}
+
+.product_table tr th:last-child {
+  border-radius: 0 8px 0 0;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: #ececec;
+}
+
+.table-striped > tbody > tr td {
+  padding: 24px;
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 19.922px;
+}
+
+.table-striped > tbody > tr td:first-child {
+  padding-left: 45px;
+}

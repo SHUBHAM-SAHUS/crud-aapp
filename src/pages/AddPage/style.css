@@ -1,0 +1,128 @@
+.heading {
+  border-radius: 5px 5px 0px 0px;
+  background: #356646;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.922px; /* 110.677% */
+  font-variant: all-small-caps;
+  padding: 10px 20px;
+}
+.delete,
+.button {
+  padding: unset;
+  border: unset;
+  background-color: transparent;
+  margin-left: 10px;
+}
+
+.form_wrp {
+  padding: 17px 20px;
+}
+.title {
+  color: #356646;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.922px;
+  font-variant: all-small-caps;
+}
+
+.about_product,
+.product_dtl_Wrp {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.form-label {
+  color: #6e6e6e;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.922px;
+  text-transform: capitalize;
+}
+.form-control,
+.form-control:focus {
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+  background: #fff;
+  padding: 20px;
+}
+.form-control,
+.form-control::placeholder,
+.form-control:focus {
+  color: #000;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.922px;
+  box-shadow: unset;
+}
+
+.dropdown .dropdown-toggle {
+  width: 100%;
+  padding: 20px 14px;
+  border-radius: 5px;
+  border: 1px solid #e1e1e1;
+
+  background: #fff;
+  color: #000;
+
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 19.922px; /* 124.512% */
+  text-align: left;
+}
+.dropdown-toggle.show{
+  color: #FFF;
+  background: #356646;
+}
+.dropdown-toggle::after{
+  background-image: url('../../assets/images/down-dark.svg');
+  border: unset;
+  width: 24px;
+  height: 24px;
+vertical-align: middle;
+position: absolute;
+right: 20px;
+}
+.dropdown-toggle.show::after {
+  background-image: url('../../assets/images/down-light.svg');
+}
+
+.dropdown-menu.show{
+  width: 100%;
+  border-radius: 5px;
+border: 1px solid #E1E1E1;
+border-top:unset ;
+background: #FFF;
+top: -2px !important;
+padding: unset;
+}
+
+.dropdown-item{
+  color: #6E6E6E;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 19.922px; 
+padding: 10px 18px;
+border-bottom: 1px solid #E1E1E1;
+}
+.dropdown-item:last-child{
+  border: unset;
+}
+.dropdown-item:focus, .dropdown-item:hover{
+  background-color: transparent;
+  color: #000;
+  
+}

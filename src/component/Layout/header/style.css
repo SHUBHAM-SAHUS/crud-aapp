@@ -1,0 +1,42 @@
+.header_wrp {
+  background-color: #356646;
+  padding: 17px !important;
+  z-index: 999;
+}
+.header_wrp .nav_right {
+  gap: 12px;
+}
+.header_wrp .user_wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+}
+.user_wrp h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 19.922px;
+  font-variant: all-small-caps;
+  margin-bottom: unset;
+}
+.user_wrp a,.user_wrp span{
+    color: #BCBBBD;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 19.922px; 
+    text-transform: lowercase;
+    text-decoration: unset;
+}
+
+.user_wrp span{
+    display: block;
+text-transform: capitalize;
+}
+
+.header_wrp .logout {
+  background-color: transparent;
+  border: unset;
+}

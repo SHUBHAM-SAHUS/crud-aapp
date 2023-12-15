@@ -1,0 +1,48 @@
+.sidebar_wrp {
+  width: 248px;
+  height: 100vh;
+  background-color: #fff;
+  padding-top: 102px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.nav-item {
+  width: 100%;
+}
+.nav-item .nav-link,
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus {
+  color: #356646;
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px; /* 142.857% */
+  text-transform: capitalize;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  border-radius: unset;
+ border-bottom: 1px solid rgba(225, 225, 225, 0.25);
+}
+
+
+.nav-item .nav-link.active{
+    background: #356646;
+    color: #FFF;
+}
+
+.nav-item .nav-link svg {
+  position: absolute;
+  right: 8px;
+}
+
+
+.nav-item .nav-link.active svg{
+color: #BCBBBD;
+}
+
+
